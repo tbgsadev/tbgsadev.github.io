@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io</string>
+					<string>https://tbgsadev.github.io/iSAPPOS_FACTDIAG.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io</string>
+					<string>https://tbgsadev.github.io/04_iSAPPOS_57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io</string>
+					<string>https://tbgsadev.github.io/04_iSAPPOS_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>POS_API_Sample</string>
+				<string>iSAPPOS_FACTDIAG</string>
 			</dict>
 		</dict>
 	</array>
