@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>jp.co.tb-group.isappos.factrydiag</string>
+				<string>jp.co.tb-group.isappos.posapisample</string>
 				<key>bundle-version</key>
-				<string>1.19</string>
+				<string>1.05</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>POS_API_Sample</string>
+				<string>POS_API_Sample_R05</string>
 			</dict>
 		</dict>
 	</array>
