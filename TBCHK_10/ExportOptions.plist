@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://tbgsadev.github.io/TBCHK_10/POS_API_Sample.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://tbgsadev.github.io/TBCHK_10/Check_57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://tbgsadev.github.io/TBCHK_10/Check_512.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>24SXCE6USQ</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
