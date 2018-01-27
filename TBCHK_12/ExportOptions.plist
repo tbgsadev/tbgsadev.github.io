@@ -7,11 +7,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://tbgsadev.github.io/TBCHK_10/POS_API_Sample.ipa</string>
+		<string>https://tbgsadev.github.io/TBCHK_12/POS_API_Sample.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://tbgsadev.github.io/TBCHK_10/Check_57.png</string>
+		<string>https://tbgsadev.github.io/TBCHK_12/Check_57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://tbgsadev.github.io/TBCHK_10/Check_512.png</string>
+		<string>https://tbgsadev.github.io/TBCHK_12/Check_512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
