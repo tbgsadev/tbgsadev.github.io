@@ -1,0 +1,138 @@
+2018-02-02 01:59:47 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f94d74df4d0; archive(resolved)='<IDEArchive: 0x7f94d26482a0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team(resolved)='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f94d74df4d0; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f94d74d9ab0; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d74ea1b0; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d74e0540; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d437e5b0; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d46a5250; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d733cf00; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d7337910; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d715b680; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='<IDEProvisioningBasicTeam 0x7f94cf59ce90: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+	<IDEDistributionContext: 0x7f94d715ab50; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f94ce17c940>', team='(null)'>
+	<IDEDistributionContext: 0x7f94cedc9480; archive = '<IDEArchive: 0x7f94d26482a0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f94d74df4d0>
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionCopyItemStep
+2018-02-02 01:59:47 +0000  Running /usr/bin/ditto '-V' '/Users/sa01/Library/Developer/Xcode/Archives/2018-02-02/TWP-350_FACTDIAG 2018-02-02 10.57.xcarchive/Products/Applications/TWP-350_FACTDIAG.app' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root/Payload/TWP-350_FACTDIAG.app'
+2018-02-02 01:59:47 +0000  >>> Copying /Users/sa01/Library/Developer/Xcode/Archives/2018-02-02/TWP-350_FACTDIAG 2018-02-02 10.57.xcarchive/Products/Applications/TWP-350_FACTDIAG.app 
+2018-02-02 01:59:47 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-02-02 01:59:47 +0000  7483 bytes for ./_CodeSignature/CodeResources
+2018-02-02 01:59:47 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-02-02 01:59:47 +0000  5210 bytes for ./AppIcon20x20@2x.png
+2018-02-02 01:59:47 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-02-02 01:59:47 +0000  10748 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon29x29@2x.png ... 
+2018-02-02 01:59:47 +0000  10387 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2018-02-02 01:59:47 +0000  19310 bytes for ./AppIcon29x29@3x.png
+2018-02-02 01:59:47 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-02-02 01:59:47 +0000  31043 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon60x60@2x.png ... 
+2018-02-02 01:59:47 +0000  31043 bytes for ./AppIcon60x60@2x.png
+2018-02-02 01:59:47 +0000  copying file ./AppIcon60x60@3x.png ... 
+2018-02-02 01:59:47 +0000  63166 bytes for ./AppIcon60x60@3x.png
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-02-02 01:59:47 +0000  412 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-02-02 01:59:47 +0000  180344 bytes for ./Assets.car
+2018-02-02 01:59:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-02-02 01:59:47 +0000  1792 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-02 01:59:47 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-02-02 01:59:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-02-02 01:59:47 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-02-02 01:59:47 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-02-02 01:59:47 +0000  12683 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-02-02 01:59:47 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-02 01:59:47 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-02-02 01:59:47 +0000  964 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./embedded.mobileprovision ... 
+2018-02-02 01:59:47 +0000  14552 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1400 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-02-02 01:59:47 +0000  8 bytes for ./PkgInfo
+copying file ./TWP-350_FACTDIAG ... 
+2018-02-02 01:59:47 +0000  1052784 bytes for ./TWP-350_FACTDIAG
+2018-02-02 01:59:47 +0000  /usr/bin/ditto exited with 0
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-02-02 01:59:47 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-02-02 01:59:47 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-02-02 01:59:47 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionSymbolsStep
+2018-02-02 01:59:47 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionAppThinningStep
+2018-02-02 01:59:47 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionODRStep
+2018-02-02 01:59:47 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-02-02 01:59:47 +0000  Running /usr/bin/xattr '-crs' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root/Payload/TWP-350_FACTDIAG.app'
+2018-02-02 01:59:48 +0000  /usr/bin/xattr exited with 0
+2018-02-02 01:59:48 +0000  Processing step: IDEDistributionCodesignStep
+2018-02-02 01:59:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f94d708b340 'jp.co.tb-group.twp-350.diagfactoryuse' '<DVTFilePath:0x7f94ceed0a20:'/Users/sa01/Library/Developer/Xcode/Archives/2018-02-02/TWP-350_FACTDIAG 2018-02-02 10.57.xcarchive/Products/Applications/TWP-350_FACTDIAG.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f94d41aca70>: {
+}
+2018-02-02 01:59:48 +0000  Entitlements for <IDEDistributionItem: 0x7f94d708b340 'jp.co.tb-group.twp-350.diagfactoryuse' '<DVTFilePath:0x7f94ceed0a20:'/Users/sa01/Library/Developer/Xcode/Archives/2018-02-02/TWP-350_FACTDIAG 2018-02-02 10.57.xcarchive/Products/Applications/TWP-350_FACTDIAG.app'>'>: {
+    "application-identifier" = "24SXCE6USQ.jp.co.tb-group.twp-350.diagfactoryuse";
+    "com.apple.developer.team-identifier" = 24SXCE6USQ;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "24SXCE6USQ.jp.co.tb-group.twp-350.diagfactoryuse"
+    );
+}
+2018-02-02 01:59:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f94d708b340 'jp.co.tb-group.twp-350.diagfactoryuse' '<DVTFilePath:0x7f94ceed0a20:'/Users/sa01/Library/Developer/Xcode/Archives/2018-02-02/TWP-350_FACTDIAG 2018-02-02 10.57.xcarchive/Products/Applications/TWP-350_FACTDIAG.app'>'> to: /var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/entitlements8H2C9d
+2018-02-02 01:59:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '693C4A43D1F5C43AFF79A680B44B0771F0632ED7' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/entitlements8H2C9d' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root/Payload/TWP-350_FACTDIAG.app'
+2018-02-02 01:59:48 +0000  /var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root/Payload/TWP-350_FACTDIAG.app: replacing existing signature
+2018-02-02 01:59:48 +0000  /var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root/Payload/TWP-350_FACTDIAG.app: signed app bundle with Mach-O universal (armv7 arm64) [jp.co.tb-group.twp-350.diagfactoryuse]
+2018-02-02 01:59:48 +0000  /usr/bin/codesign exited with 0
+2018-02-02 01:59:48 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-02-02 01:59:48 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-02 01:59:48 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-02-02 01:59:48 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root' '/var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Packages/TWP-350_FACTDIAG.ipa'
+2018-02-02 01:59:48 +0000  >>> Copying /var/folders/j2/68ps4d6d2zzfzl0f432hyf8w0000gn/T/XcodeDistPipeline.Xsi/Root 
+2018-02-02 01:59:48 +0000  copying file ./Payload/TWP-350_FACTDIAG.app/_CodeSignature/CodeResources ... 
+2018-02-02 01:59:48 +0000  7483 bytes for ./Payload/TWP-350_FACTDIAG.app/_CodeSignature/CodeResources
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon20x20@2x.png ... 
+2018-02-02 01:59:48 +0000  5210 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon20x20@2x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon20x20@3x.png ... 
+2018-02-02 01:59:48 +0000  10748 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon20x20@3x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon29x29@2x.png ... 
+2018-02-02 01:59:48 +0000  10387 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon29x29@2x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon29x29@3x.png ... 
+2018-02-02 01:59:48 +0000  19310 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon29x29@3x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon40x40@3x.png ... 
+2018-02-02 01:59:48 +0000  31043 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon40x40@3x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon60x60@2x.png ... 
+2018-02-02 01:59:48 +0000  31043 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon60x60@2x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/AppIcon60x60@3x.png ... 
+2018-02-02 01:59:48 +0000  63166 bytes for ./Payload/TWP-350_FACTDIAG.app/AppIcon60x60@3x.png
+copying file ./Payload/TWP-350_FACTDIAG.app/archived-expanded-entitlements.xcent ... 
+2018-02-02 01:59:48 +0000  412 bytes for ./Payload/TWP-350_FACTDIAG.app/archived-expanded-entitlements.xcent
+copying file ./Payload/TWP-350_FACTDIAG.app/Assets.car ... 
+2018-02-02 01:59:48 +0000  180344 bytes for ./Payload/TWP-350_FACTDIAG.app/Assets.car
+2018-02-02 01:59:48 +0000  copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1792 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-02 01:59:48 +0000  258 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-02-02 01:59:48 +0000  832 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-02-02 01:59:48 +0000  12683 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-02 01:59:48 +0000  258 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+964 bytes for ./Payload/TWP-350_FACTDIAG.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/TWP-350_FACTDIAG.app/embedded.mobileprovision ... 
+2018-02-02 01:59:48 +0000  8746 bytes for ./Payload/TWP-350_FACTDIAG.app/embedded.mobileprovision
+copying file ./Payload/TWP-350_FACTDIAG.app/Info.plist ... 
+2018-02-02 01:59:48 +0000  1400 bytes for ./Payload/TWP-350_FACTDIAG.app/Info.plist
+copying file ./Payload/TWP-350_FACTDIAG.app/PkgInfo ... 
+2018-02-02 01:59:48 +0000  8 bytes for ./Payload/TWP-350_FACTDIAG.app/PkgInfo
+copying file ./Payload/TWP-350_FACTDIAG.app/TWP-350_FACTDIAG ... 
+2018-02-02 01:59:48 +0000  1052784 bytes for ./Payload/TWP-350_FACTDIAG.app/TWP-350_FACTDIAG
+2018-02-02 01:59:48 +0000  /usr/bin/ditto exited with 0
+2018-02-02 01:59:48 +0000  Processing step: IDEDistributionCreateManifestStep
