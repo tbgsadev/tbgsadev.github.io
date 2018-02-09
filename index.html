@@ -1,73 +1,67 @@
+<!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<title>iSAPPOS 検査アプリ</title>
-	</head>
-	<body>
-		<p>最終更新: 2018/02/08　R18</p>
-		<p>  R05 印字スピード比較　カウンタ・日時印字追加</p>
-		<p>  R06 旧バージョンTBCHK_07追加</p>
-		<p>  R07 TBCHK_09 NEC様端末2台を追加</p>
-		<p>  R08 TBCHK_10 58/80mm切替追加</p>
-		<p>  R09 PAS_1.25_R00 API1.25 連続接続</p>
-		<p>  R10 PAS_1.25_R01 API1.25 連続接続 InitFail時に自動disc</p>
-		<p>  R11 PAS_1.25_R02 API1.25 連続接続 InitFail時に自動disc, connect fail対策</p>
-		<p>  R12 PAS_1.26_R00 連続接続　POS_API 1.14b8</p>
-		<p>  R13 PAS_1.26_R03 連続接続　POS_API 1.14b8 initPrinter処理　最大時間表示</p>
-		<p>  R14 PAS_1.26_R04 連続接続　POS_API 1.14b8 initPrinter処理　最大時間表示  Logo選択印字</p>
-		<p>  R15 PAS_1.27_R00 連続接続　POS_API 1.14b9 initPrinter処理　最大時間表示  Logo選択印字</p>
-		<p>  R16 PAS_1.27_R00 連続接続　POS_API 1.14b9 initPrinter処理　最大時間測定方法変更  Logo選択印字</p>
-		<p>  R17 PAS_1.28_R00 連続接続　POS_API 1.14b10 initPrinter処理　最大時間測定方法変更  Logo選択印字</p>
-		<p>  R18 PAS_1.29_R00 連続接続　POS_API 1.14b11 initPrinter処理　最大時間測定方法変更  Logo選択印字</p>
-		<p>-------------------------------</p>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>iSAPPOS 検査アプリ</title>
+<link rel="stylesheet" href="https://tbgsadev.github.io/htmq.css">
+<link rel="stylesheet" media="screen and (max-width:800px)" href="https://tbgsadev.github.io/htmq_sp.css">
+</head>
+<body>
+
+<h2 class="header2">iSAPPOS 検査アプリ</h2>
+	最終更新: 2018/02/08　R18</br>
+	R05 印字スピード比較　カウンタ・日時印字追加</br>
+	R06 旧バージョンTBCHK_07追加</br>
+	R07 TBCHK_09 NEC様端末2台を追加</br>
+	R08 TBCHK_10 58/80mm切替追加</br>
+	R09 PAS_1.25_R00 API1.25 連続接続</br>
+	R10 PAS_1.25_R01 API1.25 連続接続 InitFail時に自動disc</br>
+	R11 PAS_1.25_R02 API1.25 連続接続 InitFail時に自動disc, connect fail対策</br>
+	R12 PAS_1.26_R00 連続接続　POS_API 1.14b8</br>
+	R13 PAS_1.26_R03 連続接続　POS_API 1.14b8 initPrinter処理　最大時間表示</br>
+	R14 PAS_1.26_R04 連続接続　POS_API 1.14b8 initPrinter処理　最大時間表示  Logo選択印字</br>
+	R15 PAS_1.27_R00 連続接続　POS_API 1.14b9 initPrinter処理　最大時間表示  Logo選択印字</br>
+	R16 PAS_1.27_R00 連続接続　POS_API 1.14b9 initPrinter処理　最大時間測定方法変更  Logo選択印字</br>
+	R17 PAS_1.28_R00 連続接続　POS_API 1.14b10 initPrinter処理　最大時間測定方法変更  Logo選択印字</br>
+	R18 PAS_1.29_R00 連続接続　POS_API 1.14b11 initPrinter処理　最大時間測定方法変更  Logo選択印字</br>
+	
+	<h4 class="itemsheader_html"><a id="a">&nbsp;</a>受入検査</h4>
+	<div class="itemsbody">
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/manifest.plist">install</a> …… 受入検査用　Version 0.95<br>
+	</div>
+	<div class="gopagetop"><a href="#top">▲ページ先頭へ</a></div>
+
+	<h4 class="itemsheader_html"><a id="b">&nbsp;</a>印字速度比較</h4>
+	<div class="itemsbody">
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/manifest5.plist">install</a> …… レシートサンプル（動作比較用）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_07/manifest.plist">install</a> …… 印字スピード比較（TBCHK_07）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_08/manifest.plist">install</a> …… 印字スピード比較（TBCHK_07）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_09/manifest.plist">install</a> …… 印字スピード比較 カウンタ追加（TBCHK_09）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_10/manifest.plist">install</a> …… 印字スピード比較 58/80mm切替追加（TBCHK_10）</br>
+	</div>
+	<div class="gopagetop"><a href="#top">▲ページ先頭へ</a></div>
 
 
-		<p>受入検査用　Version 0.95</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/manifest.plist">install</a>
+	<h4 class="itemsheader_html"><a id="c">&nbsp;</a>API評価 連続接続・切断 </h4>
+	<div class="itemsbody">
 
-		<p>レシートサンプル（動作比較用）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/manifest5.plist">install</a>
-
-		<p>印字スピード比較（TBCHK_07）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_07/manifest.plist">install</a>
-
-		<p>印字スピード比較（TBCHK_08）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_08/manifest.plist">install</a>
-
-		<p>印字スピード比較 カウンタ追加（TBCHK_09）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_09/manifest.plist">install</a>
-
-		<p>印字スピード比較 58/80mm切替追加（TBCHK_10）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/TBCHK_10/manifest.plist">install</a>
-
-		<p>連続接続・切断 with API1.25 (PAS_1.25_R00)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R00/manifest.plist">install</a>
-
-		<p>連続接続・切断 with API1.25 (PAS_1.25_R01)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R01/manifest.plist">install</a>
-
-		<p>連続接続・切断 with API1.25 (PAS_1.25_R02)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R02/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b8 (PAS_1.26_R00)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R00/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b8 (PAS_1.26_R03)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R03/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b8 (PAS_1.26_R04)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R04/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b9 (PAS_1.27_R00)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.27_R00/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b9 (PAS_1.27_R01)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.27_R01/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b10 (PAS_1.28_R00)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.28_R00/manifest.plist">install</a>
-
-		<p>連続接続・切断 with 1.14b11 (PAS_1.29_R00)）</p>
-		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.29_R00/manifest.plist">install</a>
-		<p> -R18 .- </p>
-	</body>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R00/manifest.plist">install</a> …… API1.25 (PAS_1.25_R00）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R01/manifest.plist">install</a> …… API1.25 (PAS_1.25_R01)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.25_R02/manifest.plist">install</a> …… API1.25 (PAS_1.25_R02)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R00/manifest.plist">install</a> …… 1.14b8 (PAS_1.26_R00)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R03/manifest.plist">install</a> …… 1.14b8 (PAS_1.26_R03)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.26_R04/manifest.plist">install</a> …… 1.14b8 (PAS_1.26_R04)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.27_R00/manifest.plist">install</a> …… 1.14b9 (PAS_1.27_R00)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.27_R01/manifest.plist">install</a> …… 1.14b9 (PAS_1.27_R01)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.28_R00/manifest.plist">install</a> …… 1.14b10 (PAS_1.28_R00)）<br>
+		<a href="itms-services://?action=download-manifest&url=https://tbgsadev.github.io/PAS_1.29_R00/manifest.plist">install</a> …… 1.14b11 (PAS_1.29_R00)）<br>
+	</div>
+	<div class="gopagetop"><a href="#top">▲ページ先頭へ</a></div>
+</div>
+</div>
+</body>
 </html>
