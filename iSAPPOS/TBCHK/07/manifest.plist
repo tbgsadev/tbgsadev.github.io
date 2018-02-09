@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io/TBCHK_07/POS_API_Sample.ipa</string>
+					<string>https://tbgsadev.github.io/iSAPPOS/TBCHK/07/POS_API_Sample.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io/TBCHK_07/Check_57.png</string>
+					<string>https://tbgsadev.github.io/iSAPPOS/TBCHK/Check_57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://tbgsadev.github.io/TBCHK_07/Check_512.png</string>
+					<string>https://tbgsadev.github.io/iSAPPOS/TBCHK/Check_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
