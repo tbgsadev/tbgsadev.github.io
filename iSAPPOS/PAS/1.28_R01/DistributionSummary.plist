@@ -13,9 +13,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>693C4A43D1F5C43AFF79A680B44B0771F0632ED7</string>
+				<string>0DD703895F960B0CDBEE3D23BB978EC89A516025</string>
 				<key>dateExpires</key>
-				<string>2018/06/14</string>
+				<string>2019/02/13</string>
 				<key>type</key>
 				<string>iOS Distribution</string>
 			</dict>
@@ -24,7 +24,6 @@
 				<dict>
 					<key>architectures</key>
 					<array>
-						<string>i386</string>
 						<string>x86_64</string>
 						<string>armv7</string>
 						<string>arm64</string>
@@ -32,9 +31,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>693C4A43D1F5C43AFF79A680B44B0771F0632ED7</string>
+						<string>0DD703895F960B0CDBEE3D23BB978EC89A516025</string>
 						<key>dateExpires</key>
-						<string>2018/06/14</string>
+						<string>2019/02/13</string>
 						<key>type</key>
 						<string>iOS Distribution</string>
 					</dict>
@@ -52,14 +51,14 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>24SXCE6USQ.jp.co.tb-group.posapismp</string>
+				<string>24SXCE6USQ.jp.co.tb-group.pas</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>24SXCE6USQ</string>
 				<key>get-task-allow</key>
 				<false/>
 				<key>keychain-access-groups</key>
 				<array>
-					<string>24SXCE6USQ.jp.co.tb-group.posapismp</string>
+					<string>24SXCE6USQ.jp.co.tb-group.pas</string>
 				</array>
 			</dict>
 			<key>name</key>
@@ -67,9 +66,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>126a2e44-c72b-4e6b-bb2f-c935181962fb</string>
+				<string>e3f92f39-574f-43f2-bed6-37c24e4e2646</string>
 				<key>name</key>
-				<string>XC iOS Ad Hoc: jp.co.tb-group.*</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: jp.co.tb-group.*</string>
 			</dict>
 			<key>team</key>
 			<dict>
