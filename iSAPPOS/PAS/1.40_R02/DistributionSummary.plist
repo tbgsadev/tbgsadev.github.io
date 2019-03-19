@@ -12,9 +12,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>0DD703895F960B0CDBEE3D23BB978EC89A516025</string>
+				<string>8DBA419DEA4075AB2F734AB4AB70FAC88611EFC3</string>
 				<key>dateExpires</key>
-				<string>2019/02/13</string>
+				<string>2020/03/18</string>
 				<key>type</key>
 				<string>iOS Distribution</string>
 			</dict>
@@ -31,9 +31,9 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>0DD703895F960B0CDBEE3D23BB978EC89A516025</string>
+						<string>8DBA419DEA4075AB2F734AB4AB70FAC88611EFC3</string>
 						<key>dateExpires</key>
-						<string>2019/02/13</string>
+						<string>2020/03/18</string>
 						<key>type</key>
 						<string>iOS Distribution</string>
 					</dict>
@@ -66,7 +66,7 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>e3f92f39-574f-43f2-bed6-37c24e4e2646</string>
+				<string>46fc5a45-3e3f-4f74-89c5-4a0f3b134e8d</string>
 				<key>name</key>
 				<string>iOS Team Ad Hoc Provisioning Profile: jp.co.tb-group.*</string>
 			</dict>
