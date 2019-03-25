@@ -1,165 +1,153 @@
-2018-06-06 02:48:37 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc79abb9360; archive(resolved)='<IDEArchive: 0x7fc799b82c40>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
+2019-03-25 04:21:25 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb73facce60; archive(resolved)='<IDEArchive: 0x7fb73e08fd60>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
 	Chain (11, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7fc79abb9360; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionProcessingPipelineContext: 0x7fc79abb9020; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77e266040; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77dfb3580; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77dbde7d0; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77c74e9f0; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77e33f6d0; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77e64ed90; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77d3d56c0; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='<IDEProvisioningBasicTeam 0x7fc77de972a0: teamID: 24SXCE6USQ, teamName: TB Group inc.>'>
-	<IDEDistributionContext: 0x7fc77e3f51b0; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc77d2fbaa0>', team='(null)'>
-	<IDEDistributionContext: 0x7fc77e2b7f30; archive = '<IDEArchive: 0x7fc799b82c40>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7fc79abb9360>
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCreateDestRootStep
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCopyItemStep
-2018-06-06 02:48:37 +0000  Running /usr/bin/ditto '-V' '/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app'
-2018-06-06 02:48:37 +0000  >>> Copying /Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app 
-2018-06-06 02:48:37 +0000  copying file ./_CodeSignature/CodeResources ... 
-2018-06-06 02:48:37 +0000  16373 bytes for ./_CodeSignature/CodeResources
-2018-06-06 02:48:37 +0000  copying file ./Logo.bmp ... 
-2018-06-06 02:48:37 +0000  339894 bytes for ./Logo.bmp
-copying file ./CheckBox_Vista-Off.png ... 
-2018-06-06 02:48:37 +0000  682 bytes for ./CheckBox_Vista-Off.png
-2018-06-06 02:48:37 +0000  copying file ./towalogo.bmp ... 
-2018-06-06 02:48:37 +0000  12542 bytes for ./towalogo.bmp
-2018-06-06 02:48:37 +0000  copying file ./Android_RadioButton-Off.png ... 
-858 bytes for ./Android_RadioButton-Off.png
-2018-06-06 02:48:37 +0000  copying file ./AppIcon29x29~ipad.png ... 
-2706 bytes for ./AppIcon29x29~ipad.png
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
-2018-06-06 02:48:37 +0000  2537 bytes for ./Base.lproj/LaunchScreen.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/BLEScanViewController.nib ... 
-2018-06-06 02:48:37 +0000  1517 bytes for ./Base.lproj/Main.storyboardc/BLEScanViewController.nib
+	<IDEDistributionProcessingPipelineContext: 0x7fb73facce60; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb73ee530b0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73e558400; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fb3d7e0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fb30e50; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fb5fc20; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fa5f200; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fa406c0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73fb290b0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='<IDEProvisioningBasicTeam: 0x7fb73faf0ac0; teamID='24SXCE6USQ', teamName='TB Group inc.'>'>
+	<IDEDistributionContext: 0x7fb73f931ff0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb73e2c7de0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb73fa7e1b0; archive = '<IDEArchive: 0x7fb73e08fd60>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb73facce60>
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCopyItemStep
+2019-03-25 04:21:25 +0000  Running /usr/bin/ditto '-V' '/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app'
+2019-03-25 04:21:25 +0000  >>> Copying /Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app 
+2019-03-25 04:21:25 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-03-25 04:21:25 +0000  16043 bytes for ./_CodeSignature/CodeResources
+2019-03-25 04:21:25 +0000  copying file ./Logo.bmp ... 
+2019-03-25 04:21:25 +0000  339894 bytes for ./Logo.bmp
+2019-03-25 04:21:25 +0000  copying file ./CheckBox_Vista-Off.png ... 
+2019-03-25 04:21:25 +0000  682 bytes for ./CheckBox_Vista-Off.png
+copying file ./towalogo.bmp ... 
+2019-03-25 04:21:25 +0000  12542 bytes for ./towalogo.bmp
+2019-03-25 04:21:25 +0000  copying file ./Android_RadioButton-Off.png ... 
+2019-03-25 04:21:25 +0000  858 bytes for ./Android_RadioButton-Off.png
+copying file ./AppIcon29x29~ipad.png ... 
+2019-03-25 04:21:25 +0000  2706 bytes for ./AppIcon29x29~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
+2019-03-25 04:21:25 +0000  2538 bytes for ./Base.lproj/LaunchScreen.nib
+2019-03-25 04:21:25 +0000  copying file ./Base.lproj/Main.storyboardc/BLEScanViewController.nib ... 
+2019-03-25 04:21:25 +0000  1517 bytes for ./Base.lproj/Main.storyboardc/BLEScanViewController.nib
 copying file ./Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib ... 
-2018-06-06 02:48:37 +0000  1215 bytes for ./Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib
+2019-03-25 04:21:25 +0000  1215 bytes for ./Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib
 copying file ./Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib ... 
-2018-06-06 02:48:37 +0000  14257 bytes for ./Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib ... 
-2018-06-06 02:48:37 +0000  2836 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib
+2019-03-25 04:21:25 +0000  14243 bytes for ./Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib
+2019-03-25 04:21:25 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib ... 
+2019-03-25 04:21:25 +0000  2838 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib
 copying file ./Base.lproj/Main.storyboardc/ScannerTestViewController.nib ... 
-2018-06-06 02:48:37 +0000  1227 bytes for ./Base.lproj/Main.storyboardc/ScannerTestViewController.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib ... 
-2018-06-06 02:48:37 +0000  41091 bytes for ./Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib ... 
-2018-06-06 02:48:37 +0000  36545 bytes for ./Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib ... 
-2018-06-06 02:48:37 +0000  20385 bytes for ./Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib ... 
-2018-06-06 02:48:37 +0000  8423 bytes for ./Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib
+2019-03-25 04:21:25 +0000  1227 bytes for ./Base.lproj/Main.storyboardc/ScannerTestViewController.nib
+copying file ./Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib ... 
+2019-03-25 04:21:25 +0000  41085 bytes for ./Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib
+2019-03-25 04:21:25 +0000  copying file ./Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib ... 
+2019-03-25 04:21:25 +0000  36369 bytes for ./Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib
+copying file ./Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib ... 
+20396 bytes for ./Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib
+copying file ./Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib ... 
+2019-03-25 04:21:25 +0000  8400 bytes for ./Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib
 copying file ./Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib ... 
-2018-06-06 02:48:37 +0000  19063 bytes for ./Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib
+2019-03-25 04:21:25 +0000  19084 bytes for ./Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib
 copying file ./Base.lproj/Main.storyboardc/ComPortSetupViewController.nib ... 
-2018-06-06 02:48:37 +0000  1232 bytes for ./Base.lproj/Main.storyboardc/ComPortSetupViewController.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
-2018-06-06 02:48:37 +0000  667 bytes for ./Base.lproj/Main.storyboardc/Info.plist
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib ... 
-2018-06-06 02:48:37 +0000  12844 bytes for ./Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib
+2019-03-25 04:21:25 +0000  1232 bytes for ./Base.lproj/Main.storyboardc/ComPortSetupViewController.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-03-25 04:21:25 +0000  667 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib ... 
+2019-03-25 04:21:25 +0000  12780 bytes for ./Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib
 copying file ./Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib ... 
-2018-06-06 02:48:37 +0000  1247 bytes for ./Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib
-2018-06-06 02:48:37 +0000  copying file ./Base.lproj/Main.storyboardc/PrinterTestViewController.nib ... 
-2018-06-06 02:48:37 +0000  1227 bytes for ./Base.lproj/Main.storyboardc/PrinterTestViewController.nib
-copying file ./upce.jpg ... 
-2018-06-06 02:48:37 +0000  13869 bytes for ./upce.jpg
-copying file ./archived-expanded-entitlements.xcent ... 
-2018-06-06 02:48:37 +0000  404 bytes for ./archived-expanded-entitlements.xcent
+2019-03-25 04:21:25 +0000  1247 bytes for ./Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib
+copying file ./Base.lproj/Main.storyboardc/PrinterTestViewController.nib ... 
+2019-03-25 04:21:25 +0000  1227 bytes for ./Base.lproj/Main.storyboardc/PrinterTestViewController.nib
+2019-03-25 04:21:25 +0000  copying file ./upce.jpg ... 
+2019-03-25 04:21:25 +0000  13869 bytes for ./upce.jpg
 copying file ./RadioButton_Vista-On.png ... 
-2018-06-06 02:48:37 +0000  1803 bytes for ./RadioButton_Vista-On.png
-2018-06-06 02:48:37 +0000  copying file ./Android_RadioButton-On.png ... 
-1003 bytes for ./Android_RadioButton-On.png
-2018-06-06 02:48:37 +0000  copying file ./Assets.car ... 
-2018-06-06 02:48:37 +0000  154808 bytes for ./Assets.car
+2019-03-25 04:21:25 +0000  1803 bytes for ./RadioButton_Vista-On.png
+2019-03-25 04:21:25 +0000  copying file ./Android_RadioButton-On.png ... 
+2019-03-25 04:21:25 +0000  1003 bytes for ./Android_RadioButton-On.png
+copying file ./Assets.car ... 
+2019-03-25 04:21:25 +0000  153944 bytes for ./Assets.car
 copying file ./AppIcon40x40@2x~ipad.png ... 
-2018-06-06 02:48:37 +0000  14052 bytes for ./AppIcon40x40@2x~ipad.png
-copying file ./RadioButton_Vista-Off.png ... 
-2018-06-06 02:48:37 +0000  1125 bytes for ./RadioButton_Vista-Off.png
+2019-03-25 04:21:25 +0000  14052 bytes for ./AppIcon40x40@2x~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./RadioButton_Vista-Off.png ... 
+1125 bytes for ./RadioButton_Vista-Off.png
 copying file ./AppIcon76x76@2x~ipad.png ... 
-2018-06-06 02:48:37 +0000  30644 bytes for ./AppIcon76x76@2x~ipad.png
-copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
-2018-06-06 02:48:37 +0000  39129 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2019-03-25 04:21:25 +0000  30644 bytes for ./AppIcon76x76@2x~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+39129 bytes for ./AppIcon83.5x83.5@2x~ipad.png
 copying file ./isbn.png ... 
-2018-06-06 02:48:37 +0000  17764 bytes for ./isbn.png
+2019-03-25 04:21:25 +0000  17764 bytes for ./isbn.png
 copying file ./iSAPPOS_FACTDIAG ... 
-2018-06-06 02:48:37 +0000  592336 bytes for ./iSAPPOS_FACTDIAG
-2018-06-06 02:48:37 +0000  copying file ./black.bmp ... 
-2018-06-06 02:48:37 +0000  56278 bytes for ./black.bmp
+2019-03-25 04:21:25 +0000  592320 bytes for ./iSAPPOS_FACTDIAG
+copying file ./black.bmp ... 
+2019-03-25 04:21:25 +0000  56278 bytes for ./black.bmp
 copying file ./AppIcon29x29@2x~ipad.png ... 
-2018-06-06 02:48:37 +0000  8963 bytes for ./AppIcon29x29@2x~ipad.png
-copying file ./AppIcon40x40~ipad.png ... 
-2018-06-06 02:48:37 +0000  4637 bytes for ./AppIcon40x40~ipad.png
-2018-06-06 02:48:37 +0000  copying file ./Frameworks/FTKit.framework/_CodeSignature/CodeResources ... 
-2018-06-06 02:48:37 +0000  2202 bytes for ./Frameworks/FTKit.framework/_CodeSignature/CodeResources
-2018-06-06 02:48:37 +0000  copying file ./Frameworks/FTKit.framework/FTKit ... 
-2018-06-06 02:48:37 +0000  440112 bytes for ./Frameworks/FTKit.framework/FTKit
+2019-03-25 04:21:25 +0000  8963 bytes for ./AppIcon29x29@2x~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2019-03-25 04:21:25 +0000  4637 bytes for ./AppIcon40x40~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./Frameworks/FTKit.framework/_CodeSignature/CodeResources ... 
+2019-03-25 04:21:25 +0000  2202 bytes for ./Frameworks/FTKit.framework/_CodeSignature/CodeResources
+2019-03-25 04:21:25 +0000  copying file ./Frameworks/FTKit.framework/FTKit ... 
+2019-03-25 04:21:25 +0000  440112 bytes for ./Frameworks/FTKit.framework/FTKit
 copying file ./Frameworks/FTKit.framework/Info.plist ... 
-2018-06-06 02:48:37 +0000  734 bytes for ./Frameworks/FTKit.framework/Info.plist
-2018-06-06 02:48:37 +0000  copying file ./AppIcon20x20~ipad.png ... 
-2018-06-06 02:48:37 +0000  1444 bytes for ./AppIcon20x20~ipad.png
-copying file ./ComboBox_Vista-Arrow.png ... 
-2018-06-06 02:48:37 +0000  395 bytes for ./ComboBox_Vista-Arrow.png
-copying file ./embedded.mobileprovision ... 
-2018-06-06 02:48:37 +0000  14544 bytes for ./embedded.mobileprovision
+2019-03-25 04:21:25 +0000  734 bytes for ./Frameworks/FTKit.framework/Info.plist
+2019-03-25 04:21:25 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2019-03-25 04:21:25 +0000  1444 bytes for ./AppIcon20x20~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./ComboBox_Vista-Arrow.png ... 
+395 bytes for ./ComboBox_Vista-Arrow.png
+2019-03-25 04:21:25 +0000  copying file ./embedded.mobileprovision ... 
+2019-03-25 04:21:25 +0000  8870 bytes for ./embedded.mobileprovision
 copying file ./CheckBox_Vista-On.png ... 
-2018-06-06 02:48:37 +0000  1463 bytes for ./CheckBox_Vista-On.png
-2018-06-06 02:48:37 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
-4637 bytes for ./AppIcon20x20@2x~ipad.png
+2019-03-25 04:21:25 +0000  1463 bytes for ./CheckBox_Vista-On.png
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2019-03-25 04:21:25 +0000  4637 bytes for ./AppIcon20x20@2x~ipad.png
 copying file ./Info.plist ... 
-2018-06-06 02:48:37 +0000  2141 bytes for ./Info.plist
+2019-03-25 04:21:25 +0000  2140 bytes for ./Info.plist
 copying file ./PkgInfo ... 
-2018-06-06 02:48:37 +0000  8 bytes for ./PkgInfo
+2019-03-25 04:21:25 +0000  8 bytes for ./PkgInfo
 copying file ./AppIcon76x76~ipad.png ... 
-2018-06-06 02:48:37 +0000  11764 bytes for ./AppIcon76x76~ipad.png
-2018-06-06 02:48:37 +0000  2018-06-06 02:48:37 +0000  
+2019-03-25 04:21:25 +0000  11764 bytes for ./AppIcon76x76~ipad.png
+2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  /usr/bin/ditto exited with 0
+2019-03-25 04:21:25 +0000  
 
-2018-06-06 02:48:37 +0000  /usr/bin/ditto exited with 02018-06-06 02:48:37 +0000  
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-03-25 04:21:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb73fa9d040 'com.flytech.FTKit' '<DVTFilePath:0x7fb73fb52300:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionSymbolsStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionAppThinningStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionODRStep
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-03-25 04:21:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb73fa9d040 'com.flytech.FTKit' '<DVTFilePath:0x7fb73fb52300:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>
+2019-03-25 04:21:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app'
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  /usr/bin/xattr exited with 0
 
-2018-06-06 02:48:37 +0000  
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionEmbedProfileStep
-2018-06-06 02:48:37 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc798cbdc80 'com.flytech.FTKit' '<DVTFilePath:0x7fc78fbaf7a0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionAppThinningPlistStep
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCompileBitcodeStep
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCodeSlimmingStep
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionSymbolsStep
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionAppThinningStep
-2018-06-06 02:48:37 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionODRStep
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionStripXattrsStep
-2018-06-06 02:48:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc798cbdc80 'com.flytech.FTKit' '<DVTFilePath:0x7fc78fbaf7a0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>
-2018-06-06 02:48:37 +0000  Running /usr/bin/xattr '-crs' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app'
-2018-06-06 02:48:37 +0000  
-2018-06-06 02:48:37 +0000  2018-06-06 02:48:37 +0000  /usr/bin/xattr exited with 0
-
-2018-06-06 02:48:37 +0000  
-2018-06-06 02:48:37 +0000  
-2018-06-06 02:48:37 +0000  Processing step: IDEDistributionCodesignStep
-2018-06-06 02:48:37 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc798cbdc80 'com.flytech.FTKit' '<DVTFilePath:0x7fc78fbaf7a0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc77e661d70>: {
+2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCodesignStep
+2019-03-25 04:21:25 +0000  Entitlements for <IDEDistributionItem: 0x7fb73fa9d040 'com.flytech.FTKit' '<DVTFilePath:0x7fb73fb52300:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>: {
 }
-2018-06-06 02:48:37 +0000  Entitlements for <IDEDistributionItem: 0x7fc798cbdc80 'com.flytech.FTKit' '<DVTFilePath:0x7fc78fbaf7a0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'>: {
-}
-2018-06-06 02:48:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc798cbdc80 'com.flytech.FTKit' '<DVTFilePath:0x7fc78fbaf7a0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'> to: /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/entitlementsX9i1x3
-2018-06-06 02:48:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '0DD703895F960B0CDBEE3D23BB978EC89A516025' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/entitlementsX9i1x3' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'
-2018-06-06 02:48:38 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework: replacing existing signature
-2018-06-06 02:48:38 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework: signed bundle with Mach-O universal (i386 armv7 x86_64 arm64) [com.flytech.FTKit]
-2018-06-06 02:48:38 +0000  2018-06-06 02:48:38 +0000  
+2019-03-25 04:21:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb73fa9d040 'com.flytech.FTKit' '<DVTFilePath:0x7fb73fb52300:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'>'> to: /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/entitlementsAJSx5t
+2019-03-25 04:21:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8DBA419DEA4075AB2F734AB4AB70FAC88611EFC3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/entitlementsAJSx5t' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework'
+2019-03-25 04:21:25 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework: replacing existing signature
+2019-03-25 04:21:25 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework: signed bundle with Mach-O universal (i386 armv7 x86_64 arm64) [com.flytech.FTKit]
+2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  /usr/bin/codesign exited with 0
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  
 
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  2018-06-06 02:48:38 +0000  
-
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  /usr/bin/codesign exited with 0
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc798c4c970 'jp.co.tb-group.isappos.factrydiag' '<DVTFilePath:0x7fc77d6e9cd0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc77e058f20>: {
-}
-2018-06-06 02:48:38 +0000  Entitlements for <IDEDistributionItem: 0x7fc798c4c970 'jp.co.tb-group.isappos.factrydiag' '<DVTFilePath:0x7fc77d6e9cd0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app'>'>: {
+2019-03-25 04:21:25 +0000  Entitlements for <IDEDistributionItem: 0x7fb73fae0a40 'jp.co.tb-group.isappos.factrydiag' '<DVTFilePath:0x7fb73ee819c0:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app'>'>: {
     "application-identifier" = "24SXCE6USQ.jp.co.tb-group.isappos.factrydiag";
     "com.apple.developer.team-identifier" = 24SXCE6USQ;
     "get-task-allow" = 0;
@@ -167,122 +155,116 @@ copying file ./AppIcon76x76~ipad.png ...
         "24SXCE6USQ.jp.co.tb-group.isappos.factrydiag"
     );
 }
-2018-06-06 02:48:38 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc798c4c970 'jp.co.tb-group.isappos.factrydiag' '<DVTFilePath:0x7fc77d6e9cd0:'/Users/sa02/Library/Developer/Xcode/Archives/2018-06-06/iSAPPOS_FACTDIAG 2018-06-06 11.47.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app'>'> to: /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/entitlements89xlaC
-2018-06-06 02:48:38 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '0DD703895F960B0CDBEE3D23BB978EC89A516025' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/entitlements89xlaC' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app'
-2018-06-06 02:48:38 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app: replacing existing signature
-2018-06-06 02:48:38 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root/Payload/iSAPPOS_FACTDIAG.app: signed app bundle with Mach-O thin (arm64) [jp.co.tb-group.isappos.factrydiag]
-2018-06-06 02:48:38 +0000  2018-06-06 02:48:38 +0000  
+2019-03-25 04:21:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb73fae0a40 'jp.co.tb-group.isappos.factrydiag' '<DVTFilePath:0x7fb73ee819c0:'/Users/sa02/Library/Developer/Xcode/Archives/2019-03-25/iSAPPOS_FACTDIAG 2019-03-25 13.20.xcarchive/Products/Applications/iSAPPOS_FACTDIAG.app'>'> to: /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/entitlementsOO3WL0
+2019-03-25 04:21:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8DBA419DEA4075AB2F734AB4AB70FAC88611EFC3' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/entitlementsOO3WL0' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app'
+2019-03-25 04:21:25 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app: replacing existing signature
+2019-03-25 04:21:25 +0000  /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root/Payload/iSAPPOS_FACTDIAG.app: signed app bundle with Mach-O thin (arm64) [jp.co.tb-group.isappos.factrydiag]
+2019-03-25 04:21:25 +0000  
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  /usr/bin/codesign exited with 0
+2019-03-25 04:21:25 +0000  
 
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  2018-06-06 02:48:38 +0000  /usr/bin/codesign exited with 0
-2018-06-06 02:48:38 +0000  
-
-2018-06-06 02:48:38 +0000  Processing step: IDEDistributionStreamingZipItemStep
-2018-06-06 02:48:38 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
-2018-06-06 02:48:38 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
-2018-06-06 02:48:38 +0000  Processing step: IDEDistributionCreateIPAStep
-2018-06-06 02:48:38 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Packages/iSAPPOS_FACTDIAG.ipa'
-2018-06-06 02:48:38 +0000  >>> Copying /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.CIR/Root 
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/_CodeSignature/CodeResources ... 
-2018-06-06 02:48:38 +0000  16373 bytes for ./Payload/iSAPPOS_FACTDIAG.app/_CodeSignature/CodeResources
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Logo.bmp ... 
-2018-06-06 02:48:38 +0000  339894 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Logo.bmp
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2019-03-25 04:21:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-03-25 04:21:25 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root' '/var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Packages/iSAPPOS_FACTDIAG.ipa'
+2019-03-25 04:21:25 +0000  >>> Copying /var/folders/mn/wprwsw3x4zz70mtpjhg1vwc80000gn/T/XcodeDistPipeline.epd/Root 
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/_CodeSignature/CodeResources ... 
+2019-03-25 04:21:25 +0000  16043 bytes for ./Payload/iSAPPOS_FACTDIAG.app/_CodeSignature/CodeResources
+copying file ./Payload/iSAPPOS_FACTDIAG.app/Logo.bmp ... 
+2019-03-25 04:21:25 +0000  339894 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Logo.bmp
 copying file ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-Off.png ... 
-2018-06-06 02:48:38 +0000  682 bytes for ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-Off.png
+2019-03-25 04:21:25 +0000  682 bytes for ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-Off.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/towalogo.bmp ... 
-2018-06-06 02:48:38 +0000  12542 bytes for ./Payload/iSAPPOS_FACTDIAG.app/towalogo.bmp
+2019-03-25 04:21:25 +0000  12542 bytes for ./Payload/iSAPPOS_FACTDIAG.app/towalogo.bmp
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-Off.png ... 
-2018-06-06 02:48:38 +0000  858 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-Off.png
+2019-03-25 04:21:25 +0000  858 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-Off.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon29x29~ipad.png ... 
 2706 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon29x29~ipad.png
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/LaunchScreen.nib ... 
-2018-06-06 02:48:38 +0000  2537 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/LaunchScreen.nib
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/LaunchScreen.nib ... 
+2538 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/LaunchScreen.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/BLEScanViewController.nib ... 
-2018-06-06 02:48:38 +0000  1517 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/BLEScanViewController.nib
+2019-03-25 04:21:25 +0000  1517 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/BLEScanViewController.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib ... 
-2018-06-06 02:48:38 +0000  1215 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib
+2019-03-25 04:21:25 +0000  1215 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UIViewController-fSr-S6-izk.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib ... 
-2018-06-06 02:48:38 +0000  14257 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib
+2019-03-25 04:21:25 +0000  14243 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/S98-6Z-hrg-view-TNy-cS-fCO.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib ... 
-2018-06-06 02:48:38 +0000  2836 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib
+2019-03-25 04:21:25 +0000  2838 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/UINavigationController-IIm-N5-nA1.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ScannerTestViewController.nib ... 
-2018-06-06 02:48:38 +0000  1227 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ScannerTestViewController.nib
+2019-03-25 04:21:25 +0000  1227 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ScannerTestViewController.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib ... 
-2018-06-06 02:48:38 +0000  41091 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib
+2019-03-25 04:21:25 +0000  41085 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/oVH-49-9gq-view-NEX-NI-JSd.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib ... 
-2018-06-06 02:48:38 +0000  36545 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib
+2019-03-25 04:21:25 +0000  36369 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/YRd-GR-agd-view-dCj-p3-0Ph.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib ... 
-2018-06-06 02:48:38 +0000  20385 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib
+2019-03-25 04:21:25 +0000  20396 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fjI-jl-KHY-view-1eN-lW-i7Z.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib ... 
-2018-06-06 02:48:38 +0000  8423 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib
+2019-03-25 04:21:25 +0000  8400 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/6rA-Eb-qiq-view-7FZ-z7-SHd.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib ... 
-2018-06-06 02:48:38 +0000  19063 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib
+2019-03-25 04:21:25 +0000  19084 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/g2J-D0-BkH-view-Xby-xz-aar.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ComPortSetupViewController.nib ... 
-2018-06-06 02:48:38 +0000  1232 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ComPortSetupViewController.nib
+2019-03-25 04:21:25 +0000  1232 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/ComPortSetupViewController.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/Info.plist ... 
 667 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/Info.plist
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib ... 
-2018-06-06 02:48:38 +0000  12844 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib
+2019-03-25 04:21:25 +0000  12780 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/fSr-S6-izk-view-iVH-bK-bYN.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib ... 
-2018-06-06 02:48:38 +0000  1247 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib
+2019-03-25 04:21:25 +0000  1247 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/CashDrawerControlViewController.nib
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/PrinterTestViewController.nib ... 
 1227 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Base.lproj/Main.storyboardc/PrinterTestViewController.nib
-copying file ./Payload/iSAPPOS_FACTDIAG.app/upce.jpg ... 
-2018-06-06 02:48:38 +0000  13869 bytes for ./Payload/iSAPPOS_FACTDIAG.app/upce.jpg
-copying file ./Payload/iSAPPOS_FACTDIAG.app/archived-expanded-entitlements.xcent ... 
-2018-06-06 02:48:38 +0000  404 bytes for ./Payload/iSAPPOS_FACTDIAG.app/archived-expanded-entitlements.xcent
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/upce.jpg ... 
+2019-03-25 04:21:25 +0000  13869 bytes for ./Payload/iSAPPOS_FACTDIAG.app/upce.jpg
 copying file ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-On.png ... 
-1803 bytes for ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-On.png
+2019-03-25 04:21:25 +0000  1803 bytes for ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-On.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-On.png ... 
-2018-06-06 02:48:38 +0000  1003 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-On.png
+2019-03-25 04:21:25 +0000  1003 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Android_RadioButton-On.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Assets.car ... 
-2018-06-06 02:48:38 +0000  154808 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Assets.car
+2019-03-25 04:21:25 +0000  153944 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Assets.car
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40@2x~ipad.png ... 
-2018-06-06 02:48:38 +0000  14052 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40@2x~ipad.png
+2019-03-25 04:21:25 +0000  14052 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40@2x~ipad.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-Off.png ... 
-2018-06-06 02:48:38 +0000  1125 bytes for ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-Off.png
+2019-03-25 04:21:25 +0000  1125 bytes for ./Payload/iSAPPOS_FACTDIAG.app/RadioButton_Vista-Off.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76@2x~ipad.png ... 
-2018-06-06 02:48:38 +0000  30644 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76@2x~ipad.png
+2019-03-25 04:21:25 +0000  30644 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76@2x~ipad.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon83.5x83.5@2x~ipad.png ... 
-2018-06-06 02:48:38 +0000  39129 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon83.5x83.5@2x~ipad.png
+2019-03-25 04:21:25 +0000  39129 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon83.5x83.5@2x~ipad.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/isbn.png ... 
-2018-06-06 02:48:38 +0000  17764 bytes for ./Payload/iSAPPOS_FACTDIAG.app/isbn.png
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/iSAPPOS_FACTDIAG ... 
-2018-06-06 02:48:38 +0000  592352 bytes for ./Payload/iSAPPOS_FACTDIAG.app/iSAPPOS_FACTDIAG
+2019-03-25 04:21:25 +0000  17764 bytes for ./Payload/iSAPPOS_FACTDIAG.app/isbn.png
+copying file ./Payload/iSAPPOS_FACTDIAG.app/iSAPPOS_FACTDIAG ... 
+2019-03-25 04:21:25 +0000  592336 bytes for ./Payload/iSAPPOS_FACTDIAG.app/iSAPPOS_FACTDIAG
 copying file ./Payload/iSAPPOS_FACTDIAG.app/black.bmp ... 
-2018-06-06 02:48:38 +0000  56278 bytes for ./Payload/iSAPPOS_FACTDIAG.app/black.bmp
+2019-03-25 04:21:25 +0000  56278 bytes for ./Payload/iSAPPOS_FACTDIAG.app/black.bmp
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon29x29@2x~ipad.png ... 
 8963 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon29x29@2x~ipad.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40~ipad.png ... 
-2018-06-06 02:48:38 +0000  4637 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40~ipad.png
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/_CodeSignature/CodeResources ... 
-2202 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/_CodeSignature/CodeResources
+2019-03-25 04:21:25 +0000  4637 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon40x40~ipad.png
+copying file ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/_CodeSignature/CodeResources ... 
+2019-03-25 04:21:25 +0000  2202 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/_CodeSignature/CodeResources
 copying file ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/FTKit ... 
-2018-06-06 02:48:38 +0000  440416 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/FTKit
-copying file ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/Info.plist ... 
-2018-06-06 02:48:38 +0000  734 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/Info.plist
+2019-03-25 04:21:25 +0000  440416 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/FTKit
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/Info.plist ... 
+734 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Frameworks/FTKit.framework/Info.plist
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20~ipad.png ... 
-1444 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20~ipad.png
-copying file ./Payload/iSAPPOS_FACTDIAG.app/ComboBox_Vista-Arrow.png ... 
-2018-06-06 02:48:38 +0000  395 bytes for ./Payload/iSAPPOS_FACTDIAG.app/ComboBox_Vista-Arrow.png
+2019-03-25 04:21:25 +0000  1444 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/ComboBox_Vista-Arrow.png ... 
+395 bytes for ./Payload/iSAPPOS_FACTDIAG.app/ComboBox_Vista-Arrow.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/embedded.mobileprovision ... 
-2018-06-06 02:48:38 +0000  12649 bytes for ./Payload/iSAPPOS_FACTDIAG.app/embedded.mobileprovision
+2019-03-25 04:21:25 +0000  8882 bytes for ./Payload/iSAPPOS_FACTDIAG.app/embedded.mobileprovision
 copying file ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-On.png ... 
-2018-06-06 02:48:38 +0000  1463 bytes for ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-On.png
+2019-03-25 04:21:25 +0000  1463 bytes for ./Payload/iSAPPOS_FACTDIAG.app/CheckBox_Vista-On.png
 copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20@2x~ipad.png ... 
-2018-06-06 02:48:38 +0000  4637 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20@2x~ipad.png
-copying file ./Payload/iSAPPOS_FACTDIAG.app/Info.plist ... 
-2141 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Info.plist
+4637 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon20x20@2x~ipad.png
+2019-03-25 04:21:25 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/Info.plist ... 
+2140 bytes for ./Payload/iSAPPOS_FACTDIAG.app/Info.plist
 copying file ./Payload/iSAPPOS_FACTDIAG.app/PkgInfo ... 
-8 bytes for ./Payload/iSAPPOS_FACTDIAG.app/PkgInfo
-2018-06-06 02:48:38 +0000  copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76~ipad.png ... 
-2018-06-06 02:48:38 +0000  11764 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76~ipad.png
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  2018-06-06 02:48:38 +0000  /usr/bin/ditto exited with 0
+2019-03-25 04:21:25 +0000  8 bytes for ./Payload/iSAPPOS_FACTDIAG.app/PkgInfo
+copying file ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76~ipad.png ... 
+2019-03-25 04:21:25 +0000  11764 bytes for ./Payload/iSAPPOS_FACTDIAG.app/AppIcon76x76~ipad.png
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  
 
-2018-06-06 02:48:38 +0000  
-2018-06-06 02:48:38 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  /usr/bin/ditto exited with 0
+
+2019-03-25 04:21:25 +0000  2019-03-25 04:21:25 +0000  
+
+2019-03-25 04:21:25 +0000  Processing step: IDEDistributionCreateManifestStep
